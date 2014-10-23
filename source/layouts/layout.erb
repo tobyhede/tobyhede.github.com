@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : TwoColours
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130811
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><%= current_page.data.title || "Toby Hede" %> - Pew Pew Pew</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<%= stylesheet_link_tag "all" %>
+</head>
+<body <%= page_classes %>>
+<div id="header">
+  <div id="menu" class="container">
+    <ul>
+      <li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+      <li class="current_page_item"><a href="#" accesskey="1" title="">Articles</a></li>
+    </ul>
+  </div>
+</div>
+<div id="logo" class="container">
+  <h1><span class="fa fa-rocket"></span> Hello, I'm Toby</h1>
+</div>
+<div id="page" class="container">
+  <%= yield %>
+</div>
+<div id="contact" class="container">
+    <div class="major">
+      <h2>Get in touch</h2>
+      <span class="byline">I am on the internet</span>
+    </div>
+    <ul class="contact">
+      <li><a href="https://github.com/tobyhede/" class="fa fa-github"><span>Github</span></a></li>
+      <li><a href="https://twitter.com/tobyhede" class="fa fa-twitter"><span>Twitter</span></a></li>
+    </ul>
+</div>
+<div id="copyright" class="container">
+  <p>&copy; Toby Hede. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+<%= javascript_include_tag  "all" %>
+</body>
+</html>
