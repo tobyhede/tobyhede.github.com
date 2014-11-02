@@ -1,0 +1,61 @@
+  <div id="content">
+    <div class="title">
+      <h2>Toby Hede as a Service</h2>
+      <span class="byline">Zombie Astronautic Architect, Bovine Cosmetologist, Engineering Polyglotologist &amp; Occasional Developer</span>
+    </div>
+    <p>Things I like in no particular order</p>
+    <ul>
+      <li>spaceships</li>
+      <li>code</li>
+      <li>databases</li>
+      <li>drumming</li>
+      <li>music</li>
+      <li>pondering the nature of existence</li>
+    </ul>
+  </div>
+  <div id="sidebar">
+    <a href="#" class="image image-full"><img id="splash" src=" attack.png" alt="" /></a>
+  </div>
+
+
+              <table class="table character-sheet">
+                <tr>
+                  <th>Name</th>
+                  <td>Toby Hede</td>
+                </tr>
+                <tr>
+                  <th>Class</th>
+                  <td>Zombie Astronautic Architect</td>
+                </tr>
+                <tr>
+                  <th>Alignment</th>
+                  <td>Polyglot Agile</td>
+                </tr>
+                <tr>
+                  <th>Ability Scores</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Skills</th>
+                  <td>
+                    <ul>
+                    <li>+3 Ruby and/or on Rails</li>
+                    <li>+3 Databases</li>
+                    <li>+3 Communications</li>
+                    <li>+2 Distributed Systems</li>
+                    <li>+2 Agile & XP</li>
+                    <li>+2 Polyglot</li>
+                    <li>+1 Shipping</li>
+                    <li>+1 Improve everything all the time</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Saving Throws</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Feats</th>
+                  <td></td>
+                </tr>
+              </table>
