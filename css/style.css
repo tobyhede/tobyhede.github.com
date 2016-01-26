@@ -957,7 +957,8 @@
 /* Banner */
 
 	#banner {
-		background: url("images/overlay.png"), url("../images/star-banner.jpg");
+		background-color: #254563;
+		background: url("../images/star-banner.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
