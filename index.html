@@ -13,27 +13,6 @@
 		<meta name="keywords" content="Toby Hede, Ruby, Ruby on Rails, Elixir, Databases, Spaceships, Sydney" />
 		<meta name="author" content="Toby Hede" />
 
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script>
-			$(function() {
-			    $('a[href^="#"]').on('click', function(event) {
-						var href= $(this).attr('href');
-						var $target = $(href);
-
-		        if( $target.length ) {
-		          event.preventDefault();
-	            $("html, body").animate({
-	                scrollTop: $target.offset().top
-	            }, 800);
-		        }
-		    	});
-			});
-		</script>
-
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -45,7 +24,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">Toby Hede</a></h1>
+				<h1><a href="index.html">Toby Hede as a Service</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="#tales-of-interest">Tales of Interest</a></li>
@@ -58,9 +37,9 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2> Toby Hede</h2>
-				<p>Technology Leader.</p>
-				<p>Polyglot Programmer.</p>
-				<p>Zombie Astronautic Architect.</p>
+				<h3>Technology Leader.</h3>
+				<h3>Polyglot Programmer.</h3>
+				<h3>Zombie Astronautic Architect.</h3>
 				<ul class="actions">
 					<li>
 						<a href="#tales-of-interest" class="button big">Learn More</a>
@@ -116,7 +95,7 @@
 						<section class="feature 6u 12u$(small)">
 							<img class="image fit" src="images/pic01.jpg" alt="" />
 							<h3 class="title">Code</h3>
-							<p>Ruby, Ruby on Rails, Elixir, JavaScript, Phoenix, OTP</p>
+							<p>Ruby, Ruby on Rails, Elixir, Phoenix, OTP, JavaScript, Backbone, React</p>
 						</section>
 						<section class="feature 6u$ 12u$(small)">
 							<img class="image fit" src="images/pic04.jpg" alt="" />
@@ -129,8 +108,8 @@
 							<img class="image fit" src="images/pic03.jpg" alt="" />
 							<h3 class="title">Ops</h3>
 							<p>
-							AWS, EC2. RDS, VPC, Cloud Formation, Elastic Beanstalk AWS Lambda
-GitHub, Docker, Chef, Continuous Integration (CI), Buzzword</p>
+							AWS, EC2. RDS, VPC, Cloud Formation, Elastic Beanstalk, Lambda
+Git, Docker, Chef, Continuous Integration (CI), Buzzword</p>
 						</section>
 						<section class="feature 6u$ 12u$(small)">
 							<img class="image fit" src="images/pic02.jpg" alt="" />
@@ -138,15 +117,6 @@ GitHub, Docker, Chef, Continuous Integration (CI), Buzzword</p>
 							<p>PostgreSQL, Elasticsearch, Redis, MySQL, Memcached</p>
 						</section>
 					</div>
-					<!--
-					<footer>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button alt big">Learn More</a>
-							</li>
-						</ul>
-					</footer>
-					-->
 				</div>
 			</section>
 
@@ -155,16 +125,13 @@ GitHub, Docker, Chef, Continuous Integration (CI), Buzzword</p>
 				<div class="container">
 
 					<header>
-						<h2 id="contact">Contact</h2>
+						<h2 id="contact">I am on the internet!</h2>
 						<p>
-							I am on the internet
+							<strong>tobyhede /at/ gmail.com</strong>
 						</p>
-						<p>
-							tobyhede /at/ gmail.com
-						</p>
-						<a href="https://twitter.com/tobyhede" class="button alt big">Twitter</a>
-						<a href="https://github.com/tobyhede" class="button alt big">Github</a>
-						<a href="https://au.linkedin.com/in/tobyhede" class="button alt big">LinkedIn</a>
+						<a href="https://twitter.com/tobyhede" class="button alt big internet">Twitter</a>
+						<a href="https://github.com/tobyhede" class="button alt big internet">Github</a>
+						<a href="https://au.linkedin.com/in/tobyhede" class="button alt big internet">LinkedIn</a>
 					</header>
 					<ul class="copyright">
 						<li>&copy; Toby Hede. All rights reserved.</li>
@@ -174,5 +141,25 @@ GitHub, Docker, Chef, Continuous Integration (CI), Buzzword</p>
 				</div>
 			</footer>
 
+			<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/skel-layers.min.js"></script>
+			<script src="js/init.js"></script>
+			<script>
+				$(function() {
+				    $('a[href^="#"]').on('click', function(event) {
+							var href= $(this).attr('href');
+							var $target = $(href);
+
+			        if( $target.length ) {
+			          event.preventDefault();
+		            $("html, body").animate({
+		                scrollTop: $target.offset().top
+		            }, 800);
+			        }
+			    	});
+				});
+			</script>
 	</body>
 </html>
